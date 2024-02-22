@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap");
+
+body {
+  margin: 0;
+  border: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+p {
+  color: #ffffff;
+}
+
+/* Configuración del ENCABEZADO */
+.encabezado {
+  font-size: 50px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.hero-imagen img {
+  width: 100%;
+}
+
+/* Configuración DESCRIPCIÓN */
+.desc-seccion {
+  background-color: #000000;
+  margin: 0;
+  padding-left: 45px 0;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.desc-texto {
+  width: 60%;
+  display: inline-block;
+  padding-right: 20px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.desc-imagen {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+/* Configuración ICONOS */
+.iconos-seccion {
+  background-color: #1e1a13;
+  text-align: center;
+  padding: 50px;
+}
+
+.iconos-seccion h2 {
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 1em;
+}
+
+.iconos {
+  display: inline-block;
+  width: 30%;
+}
+
+.iconos p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+/* Configuración IMAGENES */
+.imagen-seccion {
+  text-align: center;
+  padding: 75px 0;
+}
+
+.imagen {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.imagen img {
+  width: 90%;
+}
+
+/* Configuración FOOTER */
+footer {
+  background-color: #1e1a13;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
